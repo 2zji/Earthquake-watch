@@ -46,6 +46,6 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
 }).addTo(map);
 
-// 처음 실행 + 10분마다 자동 갱신
+// 처음 실행 이후 10분마다 자동 갱신
 loadEarthquakes();
 setInterval(loadEarthquakes, 10 * 60 * 1000);
