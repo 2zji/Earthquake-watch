@@ -58,6 +58,25 @@ button:hover {
   background-color: #2980b9;
 }
 
+.link-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link-btn button {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0;
+}
+
+.link-btn button:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 10px;
