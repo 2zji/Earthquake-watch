@@ -39,9 +39,10 @@ async function loadEarthquakes() {
   }
 }
 
-// 지도 초기화
+// 지도 초기화/생성
 const map = L.map("map").setView([36.5, 127.5], 6); // 대한민국 중앙
 
+//OpenStreetMap 타일 불러오기 (지도 API 호출)
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
 }).addTo(map);

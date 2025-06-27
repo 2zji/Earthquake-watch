@@ -5,6 +5,8 @@
     <title>지진 정보 확인기</title>
 
     <link rel="icon" href="/favicon.ico" />
+
+    <!--Leaflet CSS 및 JS 불러오기-->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -17,6 +19,7 @@
   <body>
     <h1>📍 최근 지진 발생 지역</h1>
     <ul id="list">불러오는 중...</ul>
+    <!--지도 표시-->
     <div id="map" style="height: 400px; margin-top: 20px;"></div>
     <button onclick="loadEarthquakes()">🔄 새로고침</button>
     <div class="link-btn">
